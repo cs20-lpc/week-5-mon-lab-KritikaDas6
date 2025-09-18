@@ -1,0 +1,28 @@
+From Driver.cpp
+3 30 19 54 1 
+
+For fierceDrive.cpp:
+
+Testing with integers
+Empty? 1
+Appended 1, 2, & 3: 1 <--> 2 <--> 3
+Insert 4 at Node 2: 1 <--> 4 <--> 2 <--> 3
+Index 2: 1 <--> 4 <--> 2 <--> 3
+Replaced Node 3 with 5: 1 <--> 4 <--> 5 <--> 3
+Search 1: 1
+Search 100: 0
+Removed Node 2: 1 <--> 5 <--> 3
+Length: 3
+Testing strings
+Appended burger, taco, and burrito: burger <--> taco <--> burrito
+Inserted noodles at Node 2: burger <--> noodles <--> taco <--> burrito
+Replaced Node 1 with pizza: pizza <--> noodles <--> taco <--> burrito
+Search for taco: 1
+Search for banana: 0
+Removed Node 2: pizza <--> noodles <--> burrito
+Length: 3
+
+Other test/edge cases
+List is empty, no elements to display.
+libc++abi: terminating with uncaught exception of type std::out_of_range: Out of bounds in remove
+zsh: abort      ./fierce

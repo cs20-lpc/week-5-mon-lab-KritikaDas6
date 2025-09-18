@@ -9,7 +9,7 @@ class List {
 
     public:
         // default constructor
-        List() : length(0) { }
+        List() : length() { }
 
         // destructor
         virtual ~List() { }
